@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Suç ve Ceza",
+    "author": "Fyodor Dostoyevski",
+    "year": 1866,
+    "read": true
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "read": false
+  },
+  {
+    "id": 3,
+    "title": "Kukla",
+    "author": "Ahmet ümit",
+    "year": 2002,
+    "read": true
+  },
+  {
+    "id": 4,
+    "title": "Simyacı",
+    "author": "Paulo Coelho",
+    "year": 1988,
+    "read": true
+  }
+]
