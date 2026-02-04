@@ -14,3 +14,16 @@ Bu proje, **Express.js** kullanılarak oluşturulmuş, kitap verilerini bir JSON
 3. Gerekli bağımlılıkları kurmak için şu komutu çalıştırın:
    ```bash
    npm install
+4. Sunucuyu başlatmak için node server.js komutunu kullanın; 
+
+API http://localhost:3000 adresinde çalışacaktır.
+
+## API Rotaları (Endpoints)
+
+| Metot | URL | Açıklama |
+| :--- | :--- | :--- |
+| **GET** | `/books` | Tüm kitapları listeler |
+| **GET** | `/books/:id` | ID'ye göre tek bir kitabı getirir |
+| **POST** | `/books` | Yeni bir kitap ekler |
+| **PUT** | `/books/:id` | Mevcut bir kitabı günceller |
+| **DELETE** | `/books/:id` | Bir kitabı listeden siler |
